@@ -1,0 +1,826 @@
+
+:root {
+    --bor: 1px solid red;
+
+
+}
+
+.hambuger {
+    background-color: #E9F8FF;
+    width: 100%;
+    height: 99vh;
+    position: fixed;
+    z-index: 98;
+    opacity: 0.9;
+    margin: 0 0;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+
+
+.hambuger_use {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+    padding: 0 0;
+
+}
+
+.hambuger_use li {
+    width: 200px;
+    font-size: 22px;
+    font-family: Noto Sans TC;
+    list-style-type: none;
+    margin-top: 30px;
+    border-bottom: 1px solid #BACCE6;
+    text-decoration: none;
+
+
+}
+
+.hambuger_use h4 {
+    color: #7B9BCB;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin: 0 0 8px;
+
+}
+
+.hambuger_use a {
+    color: #7B9BCB;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #FFF7EE;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: #7B9BCB;
+    padding: 0 0;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.logo {
+    width: 130px;
+    height: 90px;
+
+
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.navbar ul {
+    display: flex;
+
+    width: 1200px;
+    justify-content: space-evenly;
+    margin: 0px 0;
+    text-align: center;
+
+}
+
+.navbar li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #E9F8FF;
+    font-family: Noto Sans TC;
+    font-weight: 300;
+
+}
+
+.navbar li a:hover {
+    color: #BACCE6;
+
+}
+
+.navbar h5 {
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0;
+}
+
+.member {
+
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.title {
+    width: 40%;
+    margin: 100px auto 0;
+    font-size: 33px;
+    color: #7B9BCB;
+    font-family: Noto Sans TC;
+    text-align: center;
+}
+
+.title::after {
+    content: "";
+    background: url("./icon/other_title_use.svg")0 0 no-repeat;
+    display: block;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 26.3%;
+    left: 46%;
+    /* border: var(--bor); */
+}
+
+.text {
+    width: 30%;
+    color: #7B9BCB;
+    font-family: Noto Sans TC;
+    font-size: 22px;
+    text-align: center;
+    margin: 30px auto 0;
+    letter-spacing: 3px;
+}
+
+.member_mobile {
+    display: none;
+}
+
+
+
+.camping_title,
+.cabins_title {
+    width: 200px;
+    font-size: 28px;
+    color: #7B9BCB;
+    font-family: Noto Sans TC;
+    margin: 200px 0px 50px 0px;
+
+}
+.bluegreen3{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 240px;
+    left: -70px;
+}
+.bluegreen3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.conten_text,
+.equipment_text {
+    width: 75%;
+    height: 200px;
+    font-size: 22px;
+    font-family: Noto Sans TC;
+    color: #7B9BCB;
+    margin: 0 0 0 100px;
+    line-height: 30px;
+    letter-spacing: 2px;
+
+}
+
+.equipment_text {
+    font-size: 24px;
+
+}
+
+.button ul {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    Grid-template-rows: 40px 40px;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    padding-left: 100px;
+}
+
+.button li {
+    /* width: 300px;
+    height: 50px; */
+    background-color: #7B9BCB;
+    border-radius: 50px;
+    list-style-type: none;
+    line-height: 40px;
+    padding-left: 20px;
+
+}
+
+.button li:hover {
+
+    background-color: #BACCE6;
+    border-radius: 50px;
+    list-style-type: none;
+    line-height: 40px;
+    padding-left: 20px;
+
+}
+
+.button a {
+    font-size: 20px;
+    color: #E9F8FF;
+    text-decoration: none;
+
+
+}
+.restaurant_box1{
+    width: 65%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: left    ;
+    display: flex;
+    justify-content: space-between;
+}
+.restaurant_detail{
+     width: 60%;
+    
+}
+
+h2{
+    color:  #7B9BCB;
+    font-weight: 400;
+    margin-left: 10px;
+}
+p{
+    width: 75%;
+    font-size: 18px;
+    margin-left: 60px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #BACCE6;
+    font-weight: 600;
+}
+.restaurant_pic{
+    width: 80%;
+    display: flex;
+    margin: 40px 0 0 0px;
+    justify-content: space-evenly;
+}
+.restaurant_left_pic{
+    width: 430px;
+    height: 250px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 50px;
+   
+}
+.restaurant_left_pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.restaurant_right_pic{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-left: 50px;
+   
+}
+.small_pic1{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    cursor:pointer ;
+    
+}
+.small_pic1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.equipment{
+    /* border: 1px solid red; */
+   margin-top: 400px;
+
+}
+.restaurant_detail h2{
+    margin-left: 55px;
+}
+.equipment h2{
+    margin-left: 0;
+}
+.equipment_pic{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.equipment_pic1{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    background-color: white;
+    overflow: hidden;
+}
+.equipment_pic1 img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+button{
+    width: 260px;
+    height: 40px;
+    background-color: #7B9BCB;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    margin: 50px 0;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+}
+button::before{
+    content: "—";
+    position: relative;
+    left: 197px;
+    top: -2.5px;
+}
+button::after{
+    content: ">";
+    position: relative;
+    left: 110px;
+}
+.restaurant_box2{
+    width: 65%;
+    margin: 30px auto;
+    /* border: 1px solid red; */
+}
+
+.restaurant_detail2{
+    width: 90%;
+   margin: 0 auto 130px;
+    /* border: 1px solid red; */
+}
+.restaurant_option{
+    display: flex;
+margin-bottom: 70px;
+
+}
+
+.option_pic{
+    width: 280px;
+    height: 150px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 100px;
+}
+.option_pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ifn{
+    width: 250px;
+    margin: 30px 0 0 160px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #BACCE6;
+    font-weight: 600;
+}
+.svg{
+    margin:20px 0 0 10px;
+}
+.option_detail{
+    min-width: 300px;
+}
+.option_detail :first-child{
+    font-weight: 600;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 450px;
+
+    background: url("./icon/other_footer_bgc.svg") -50px 130px no-repeat;
+    background-size: cover;
+
+
+}
+
+
+/* 手機 */
+@media screen and (max-width: 500px) {
+
+    .navbar {
+      
+        display: none;
+    }
+
+    .logo {
+        display: none;
+
+    }
+  
+.container-fluid,
+.row{
+    width: 100%;
+   
+}
+    .member_mobile {
+        display: block;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #7B9BCB;
+        z-index: 999;
+
+
+    }
+
+    .member_mobile ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 0;
+        margin-top: 15px;
+
+    }
+
+    .member_mobile li {
+        list-style: none;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
+    .member_mobile a img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: contain;
+    }
+
+    .title {
+        margin: 50px auto;
+    }
+
+    .text {
+        width: 85%;
+    }
+
+    .title::after {
+        content: "";
+        background: url("./icon/other_title_use.svg")0 0 no-repeat;
+        display: block;
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 10%;
+        left: 27%;
+
+    }
+
+    .hambuger {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        height: 260vh;
+
+
+    }
+
+    .box {
+        width: 85%;
+
+        margin: 30px auto;
+        padding: 0 0;
+    }
+
+    .camping,
+    .cabins {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .camping_title,
+    .cabins_title {
+        margin: 100px auto 50px;
+       text-align: center;
+    }
+    
+    .cabins_title {
+        /* margin: 0px auto 50px; */
+    }
+    
+
+    .conten_text {
+        width: 100%;
+        height: 280px;
+        font-size: 16px;
+        padding: 0 0;
+        margin: 0 0;
+    }
+
+    .button ul {
+        width: 300px;
+        display: grid;
+        grid-template-columns: 300px;
+        Grid-template-rows: 40px 40px 40px 40px;
+        row-gap: 20px;
+        padding: 0 0;
+        margin: 50px auto 0;
+    }
+
+    .button li {
+        /* width: 300px;
+    height: 50px; */
+        background-color: #7B9BCB;
+        border-radius: 50px;
+        list-style-type: none;
+        line-height: 40px;
+        padding-left: 20px;
+
+    }
+
+    .button a {
+        font-size: 20px;
+        color: #E9F8FF;
+        text-decoration: none;
+
+
+
+    }
+    h2{
+        width: 90%;
+        color:  #7B9BCB;
+        font-weight: 400;
+         margin: 50px auto ; 
+         font-size: 22px;
+         /* border: 1px saddlebrown solid; */
+         font-weight: 500;
+         
+    }
+    p{
+        width: 90%;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 3px;
+        color: #BACCE6;
+        font-weight: 600;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .bluegreen3{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 120px;
+        left: 70px;
+    }
+    .bluegreen3 img{
+        width: 100%;
+        height: 100%;
+    }
+    .restaurant_box1{
+        width: 100%;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        text-align: left ;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .restaurant_detail{
+         width: 100%;
+         margin: 0 auto;
+        
+    }
+    .restaurant_pic{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0 0 0px;
+        justify-content: space-evenly;
+    }
+    .restaurant_left_pic{
+        width: 100%;
+        height: 250px;
+        /* border: 1px solid red; */
+        border-radius: 10px;
+        overflow: hidden;
+        margin-left: 0px;
+       
+    }
+    .restaurant_left_pic img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .restaurant_right_pic{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        margin: 20px auto;
+       
+    }
+    .small_pic1{
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        /* border: 1px solid red; */
+        overflow: hidden;
+        cursor:pointer ;
+        
+    }
+    .small_pic1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .equipment{
+        /* border: 1px solid red; */
+       margin-top: 20px;
+    
+    }
+    .restaurant_detail h2{
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .equipment h2{
+        width: 100%;
+        margin-left: 0;
+    font-size: 24px;
+    font-weight: 600; 
+    text-align: center;
+    }
+    .equipment_pic{
+        width: 90%;
+        margin: 0 auto;
+     
+    }
+    .equipment_pic1{
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+        /* border: 1px solid red; */
+        background-color: white;
+        overflow: hidden;
+    }
+    .equipment_pic1 img{
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+    }
+    button{
+        width: 260px;
+        height: 40px;
+        background-color: #7B9BCB;
+        border-radius: 50px;
+        border: none;
+        color: #fff;
+        text-align: left;
+        padding-left: 15px;
+        margin: 50px 50px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    
+    }
+    button::before{
+        content: "—";
+        position: relative;
+        left: 197px;
+        top: -2.5px;
+    }
+    button::after{
+        content: ">";
+        position: relative;
+        left: 110px;
+    }
+    .restaurant_box2{
+        width: 100%;
+        margin: 30px auto;
+        /* border: 1px solid red; */
+    }
+    
+    .restaurant_detail2{
+        width: 100%;
+       margin: 0 auto 130px;
+        /* border: 1px solid red; */
+    }
+    .restaurant_option{
+        width: 100%;
+        display: flex;
+    margin-bottom: 70px;
+    flex-direction: column;
+    
+    }
+    
+    .option_pic{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        overflow: hidden;
+        
+    }
+    .option_pic img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .ifn{
+        width: 90%;
+        margin: 30px auto;
+        font-size: 18px;
+        text-align: center;
+        color: #BACCE6;
+        font-weight: 600;
+    }
+    .svg{
+       width: 50%;
+       position: relative;
+       left: 50px;
+       top: 25px;
+    }
+    .option_detail{
+        width: 70%;
+        margin: -110px 80px 20px;
+        /* border: 1px solid red; */
+    
+    }
+    .option_detail h2{
+        margin: 18px auto;
+    }
+    .option_detail :first-child{
+        font-weight: 600;
+    }
+    
+    
+
+
+
+    .footer {
+        width: 100%;
+        height: 300px;
+        position: relative;
+top: 1700px;
+        background: url("./icon/other_footer_bgc.svg") -50px 140px no-repeat;
+        background-size: 170%;
+
+    }
+
+    .hambuger {
+        display: none;
+    }
+
+
+
+
+}
